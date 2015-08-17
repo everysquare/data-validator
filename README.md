@@ -34,6 +34,10 @@ var errors = validator.validate({
   form: '.form',
   dump: '.errorList'
 });
+
+if (errors.length < 1) {
+  // Carry on...
+}
 ```
 
 > Requires jQuery
