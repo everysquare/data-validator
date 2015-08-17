@@ -1,6 +1,6 @@
 {
   "name": "data-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for defining all of your form validation logic as data attributes.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,9 @@
     "attributes",
     "form"
   ],
+  "dependencies": {
+    "jquery": "*",
+  },
   "author": "Howard Roark",
   "license": "Unlicense",
   "bugs": {
