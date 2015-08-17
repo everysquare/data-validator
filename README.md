@@ -4,7 +4,7 @@ A module for defining all of your form validation logic as data attributes.
 ### Why?
 
 If anything is going to change on the fly it is your form validation requirements.
-This module prevents your from having to dig into your JS files.  It also makes it
+This module prevents you from having to dig into your JS files.  It also makes it
 easy to have localized error messaging.
 
 ## Example
