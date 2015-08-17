@@ -1,0 +1,25 @@
+{
+  "name": "data-validator",
+  "version": "1.0.0",
+  "description": "A module for defining all of your form validation logic as data attributes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howardroark/data-validator.git"
+  },
+  "keywords": [
+    "validation",
+    "data",
+    "attributes",
+    "form"
+  ],
+  "author": "Howard Roark",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/howardroark/data-validator/issues"
+  },
+  "homepage": "https://github.com/howardroark/data-validator"
+}
