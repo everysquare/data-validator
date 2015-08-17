@@ -1,0 +1,33 @@
+{
+  "name": "data-validator",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/howardroark/data-validator",
+  "authors": [
+    "Howard Roark <howie@codingcoop.org>"
+  ],
+  "description": "A module for defining all of your form validation logic as data attributes.",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "data attributes",
+    "form validation",
+    "validation",
+    "forms",
+    "validate"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}
