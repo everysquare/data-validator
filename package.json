@@ -17,7 +17,7 @@
     "form"
   ],
   "dependencies": {
-    "jquery": "*",
+    "jquery": "*"
   },
   "author": "Howard Roark",
   "license": "Unlicense",
