@@ -27,7 +27,7 @@ easy to have localized error messaging.
 </form>
 ```
 
-#### CommonJS (Will also work with AMD and traditional globals)
+##### CommonJS (Will also work with AMD and traditional globals)
 
 ```javascript
 var validator = require('data-validator');
