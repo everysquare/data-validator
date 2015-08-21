@@ -24,19 +24,29 @@
 
         $inputs.each(function(index, element) {
             var $el = $(this);
-            $el.removeClass("validation-error");
+            var $customSelect = false;
 
             if($el.data('validate-conditional')) {
-                var conditional = $($el.data('validate-conditional'));
+                var $conditional = $($el.data('validate-conditional'));
 
-                if(!conditional.is(":checked")) {
+                if(!$conditional.is(":checked")) {
                     return;
                 }
+            }
+
+            $el.removeClass("validation-error");
+
+            if($el.data('validate-custom-select')) {
+                $customSelect = $el.siblings($el.data('validate-custom-select'));
+                $customSelect.removeClass("validation-error");
             }
 
             if($el.data('validate-required')) {
                 if($el.val() == "") {
                     $el.addClass("validation-error");
+                    if($customSelect) {
+                        $customSelect.addClass("validation-error");
+                    }
                     errors.push($el.data('validate-required-msg'));
                 }
             }
