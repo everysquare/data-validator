@@ -48,6 +48,8 @@
                         $customSelect.addClass("validation-error");
                     }
                     errors.push($el.data('validate-required-msg'));
+
+                    return;
                 }
             }
 

@@ -1,6 +1,6 @@
 {
   "name": "data-validator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A module for defining all of your form validation logic as data attributes.",
   "main": "index.js",
   "scripts": {
