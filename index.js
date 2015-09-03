@@ -1,4 +1,4 @@
-(function(factory) {
+;(function(root, factory) {
     if (typeof exports === "object") {
         // CommonJS
         module.exports = factory(require('jquery'));
@@ -7,15 +7,15 @@
         define(['jquery'], factory);
     } else {
         // Browser globals
-        factory(jQuery);
+        root.validator = factory(jQuery);
     }
-}(function($) {
+}(this, function($) {
 
     "use strict";
 
     var dataValidator = {};
 
-    dataValidator.version = '1.0.0';
+    dataValidator.version = '1.3.0';
 
     var validate = function(options) {
         var errors = [];
@@ -95,5 +95,4 @@
     dataValidator.validate = validate;
 
     return dataValidator;
-
 }));
