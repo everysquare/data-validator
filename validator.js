@@ -15,7 +15,7 @@
 
     var dataValidator = {};
 
-    dataValidator.version = '1.3.0';
+    dataValidator.version = '1.3.1';
 
     var validate = function(options) {
         var errors = [];
