@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howardroark/data-validator.git"
+    "url": "https://github.com/everysquare/data-validator.git"
   },
   "keywords": [
     "validation",
@@ -22,7 +22,7 @@
   "author": "Howard Roark",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/howardroark/data-validator/issues"
+    "url": "https://github.com/everysquare/data-validator/issues"
   },
-  "homepage": "https://github.com/howardroark/data-validator"
+  "homepage": "https://github.com/everysquare/data-validator"
 }

@@ -2,7 +2,7 @@
   "name": "data-validator",
   "main": "validator.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/howardroark/data-validator",
+  "homepage": "https://github.com/everysquare/data-validator",
   "authors": [
     "Howard Roark <howie@codingcoop.org>"
   ],
