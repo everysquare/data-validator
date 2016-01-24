@@ -27,7 +27,20 @@ easy to have localized error messaging.
 </form>
 ```
 
-##### CommonJS (Will also work with AMD and traditional globals)
+##### Globals
+
+```javascript
+var errors = validator.validate({
+  form: '.form',
+  dump: '.errorList'
+});
+
+if (errors.length < 1) {
+  // Carry on...
+}
+```
+
+##### CommonJS
 
 ```javascript
 var validator = require('data-validator');
